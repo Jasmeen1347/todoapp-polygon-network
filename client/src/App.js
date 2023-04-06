@@ -53,6 +53,7 @@ function App() {
   return (
     <div className="container">
       <h1>Todo App with Blockchain</h1>
+      <p className="text-center">Please connect with polygon mumbai testnet to load data</p>
       {state.account && (
         <>
           <TodoForm state={state} reload={reload} setReload={setReload} contractAddress={contractAddress} />
